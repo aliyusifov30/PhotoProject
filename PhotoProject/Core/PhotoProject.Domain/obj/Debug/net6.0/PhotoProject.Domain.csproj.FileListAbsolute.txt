@@ -1,0 +1,12 @@
+C:\Users\SWIFT\Desktop\FullStack\PhotoProjectFull\PhotoProject\Core\PhotoProject.Domain\bin\Debug\net6.0\PhotoProject.Domain.deps.json
+C:\Users\SWIFT\Desktop\FullStack\PhotoProjectFull\PhotoProject\Core\PhotoProject.Domain\bin\Debug\net6.0\PhotoProject.Domain.dll
+C:\Users\SWIFT\Desktop\FullStack\PhotoProjectFull\PhotoProject\Core\PhotoProject.Domain\bin\Debug\net6.0\PhotoProject.Domain.pdb
+C:\Users\SWIFT\Desktop\FullStack\PhotoProjectFull\PhotoProject\Core\PhotoProject.Domain\obj\Debug\net6.0\PhotoProject.Domain.csproj.AssemblyReference.cache
+C:\Users\SWIFT\Desktop\FullStack\PhotoProjectFull\PhotoProject\Core\PhotoProject.Domain\obj\Debug\net6.0\PhotoProject.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SWIFT\Desktop\FullStack\PhotoProjectFull\PhotoProject\Core\PhotoProject.Domain\obj\Debug\net6.0\PhotoProject.Domain.AssemblyInfoInputs.cache
+C:\Users\SWIFT\Desktop\FullStack\PhotoProjectFull\PhotoProject\Core\PhotoProject.Domain\obj\Debug\net6.0\PhotoProject.Domain.AssemblyInfo.cs
+C:\Users\SWIFT\Desktop\FullStack\PhotoProjectFull\PhotoProject\Core\PhotoProject.Domain\obj\Debug\net6.0\PhotoProject.Domain.csproj.CoreCompileInputs.cache
+C:\Users\SWIFT\Desktop\FullStack\PhotoProjectFull\PhotoProject\Core\PhotoProject.Domain\obj\Debug\net6.0\PhotoProject.Domain.dll
+C:\Users\SWIFT\Desktop\FullStack\PhotoProjectFull\PhotoProject\Core\PhotoProject.Domain\obj\Debug\net6.0\refint\PhotoProject.Domain.dll
+C:\Users\SWIFT\Desktop\FullStack\PhotoProjectFull\PhotoProject\Core\PhotoProject.Domain\obj\Debug\net6.0\PhotoProject.Domain.pdb
+C:\Users\SWIFT\Desktop\FullStack\PhotoProjectFull\PhotoProject\Core\PhotoProject.Domain\obj\Debug\net6.0\ref\PhotoProject.Domain.dll

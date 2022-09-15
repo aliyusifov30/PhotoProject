@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PhotoProject.Application/1.0.0": {
+        "dependencies": {
+          "PhotoProject.Domain": "1.0.0"
+        },
+        "runtime": {
+          "PhotoProject.Application.dll": {}
+        }
+      },
+      "PhotoProject.Domain/1.0.0": {
+        "runtime": {
+          "PhotoProject.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PhotoProject.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PhotoProject.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
