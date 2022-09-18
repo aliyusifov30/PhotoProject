@@ -15,7 +15,7 @@ namespace PhotoProject.Persistence.Configurations
             get
             {
                 ConfigurationManager configurationManager = new();
-                configurationManager.SetBasePath(Path.Combine(Directory.GetCurrentDirectory(),"../../","Presentation/PhotoProject.Api"));
+                configurationManager.SetBasePath(Path.Combine(Directory.GetCurrentDirectory(),"../../", "Presentation/PhotoProject.Api"));
                 configurationManager.AddJsonFile("appsettings.json");
 
                 return configurationManager.GetConnectionString("Default");
