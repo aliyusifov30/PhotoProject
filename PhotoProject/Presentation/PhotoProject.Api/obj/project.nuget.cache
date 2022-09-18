@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "tm1KHd4mWCAaTIvbTk4Vc8Fw9bqxpCQPt+r3WV0d1jEnIax2pLqcZOlAsz53GMBRGmZTJaT8/Z99WKDhps4UlA==",
+  "dgSpecHash": "f854n/PSxOtTCUaaddRxqf2gbnem4HKQ0PgGZvWWWoaSprSQTW3QC1x3C1RKLnlEmtNkR7M+nzmhhkn9IDKVVA==",
   "success": true,
   "projectFilePath": "C:\\Users\\SWIFT\\Desktop\\FullStack\\PhotoProjectFull\\PhotoProject\\Presentation\\PhotoProject.Api\\PhotoProject.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SWIFT\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
+    "C:\\Users\\SWIFT\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
     "C:\\Users\\SWIFT\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.2\\fluentvalidation.dependencyinjectionextensions.11.2.2.nupkg.sha512",
     "C:\\Users\\SWIFT\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\SWIFT\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",

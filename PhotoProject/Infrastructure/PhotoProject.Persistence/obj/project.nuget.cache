@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "xmMQIpCruyff81o7FKPv5anyPuukJFwrNmJJ3rJf1Xks8qru/4RSirrSyKJScFgtEi6qhnwwLC4+D7Aj/UncRw==",
+  "dgSpecHash": "QDZLtgWWMfcbHhmlFnrmqWfpv6CDt9YZAww16y/iRz76yCuJoPu8X15FfaokBxGK7P8xd0A+kkxXhxDDHIZpyQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\SWIFT\\Desktop\\FullStack\\PhotoProjectFull\\PhotoProject\\Infrastructure\\PhotoProject.Persistence\\PhotoProject.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SWIFT\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
+    "C:\\Users\\SWIFT\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
     "C:\\Users\\SWIFT\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.2\\fluentvalidation.dependencyinjectionextensions.11.2.2.nupkg.sha512",
     "C:\\Users\\SWIFT\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\SWIFT\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
