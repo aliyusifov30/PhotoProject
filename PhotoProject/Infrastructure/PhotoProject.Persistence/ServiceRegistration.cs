@@ -1,13 +1,19 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using PhotoProject.Application.Abstractions.Services;
 using PhotoProject.Application.Abstractions.Services.AppUserServices;
+using PhotoProject.Application.Abstractions.Services.PostServices;
+using PhotoProject.Application.Repositories.PostFileRepositories;
 using PhotoProject.Application.Repositories.TagRepositories;
 using PhotoProject.Domain.Entities.Identity;
 using PhotoProject.Persistence.Configurations;
 using PhotoProject.Persistence.Contexts;
+using PhotoProject.Persistence.Repositories.PostFileRepositories;
 using PhotoProject.Persistence.Repositories.TagRepositories;
+using PhotoProject.Persistence.Services;
 using PhotoProject.Persistence.Services.AppUserServices;
+using PhotoProject.Persistence.Services.PostServices;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,7 +41,12 @@ namespace PhotoProject.Persistence
             services.AddScoped<ITagWriteRepository, TagWriteRepository>();
             services.AddScoped<ITagReadRepository, TagReadRepository>();
 
+            services.AddScoped<IPostFileWriteRepository, PostFileWriteRepository>();
+            services.AddScoped<IPostFileReadRepository, PostFileReadRepository>();
+
             services.AddScoped<IAppUserService, AppUserService>();
+            services.AddScoped<IFileService, FileService>();
+            services.AddScoped<IPostService, PostService>();
         }
     }
 }

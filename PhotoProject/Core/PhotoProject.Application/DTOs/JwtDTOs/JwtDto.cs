@@ -12,6 +12,7 @@ namespace PhotoProject.Application.DTOs.JwtDTOs
         public string AudienceValue { get; set; }
         public string IssuerValue { get; set; }
         public string SecurityKey { get; set; }
+        public int TokenSecond { get; set; }
 
     }
 }

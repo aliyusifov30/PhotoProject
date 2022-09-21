@@ -16,4 +16,8 @@
     <ProjectReference Include="..\..\Infrastructure\PhotoProject.Persistence\PhotoProject.Persistence.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\uploads\posts\" />
+  </ItemGroup>
+
 </Project>

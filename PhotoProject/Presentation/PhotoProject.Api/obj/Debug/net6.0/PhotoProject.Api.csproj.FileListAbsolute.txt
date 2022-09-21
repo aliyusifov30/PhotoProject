@@ -77,3 +77,4 @@ C:\Users\SWIFT\Desktop\FullStack\PhotoProjectFull\PhotoProject\Presentation\Phot
 C:\Users\SWIFT\Desktop\FullStack\PhotoProjectFull\PhotoProject\Presentation\PhotoProject.Api\bin\Debug\net6.0\FluentValidation.dll
 C:\Users\SWIFT\Desktop\FullStack\PhotoProjectFull\PhotoProject\Presentation\PhotoProject.Api\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Users\SWIFT\Desktop\FullStack\PhotoProjectFull\PhotoProject\Presentation\PhotoProject.Api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\SWIFT\Desktop\FullStack\PhotoProjectFull\PhotoProject\Presentation\PhotoProject.Api\bin\Debug\net6.0\PhotoProject.Api.staticwebassets.runtime.json

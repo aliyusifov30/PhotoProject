@@ -10,6 +10,6 @@ namespace PhotoProject.Application.Abstractions.Services.TokenServices
 {
     public interface ITokenHandler
     {
-        Task<TokenDto> CreateAccessToken(AppUser model , int second);
+        Task<TokenDto> CreateAccessToken(AppUser model , int second , IList<string> roles);
     }
 }

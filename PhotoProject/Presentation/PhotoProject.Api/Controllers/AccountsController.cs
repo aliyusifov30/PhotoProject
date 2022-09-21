@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using PhotoProject.Application.Features.Commands.AccountCommands.UserLoginCommands;
 using PhotoProject.Application.Features.Commands.AccountCommands.UserRegisterCommands;
@@ -11,7 +12,6 @@ namespace PhotoProject.Api.Controllers
     {
 
         private readonly IMediator _mediator;
-
         public AccountsController(IMediator mediator)
         {
             _mediator = mediator;
@@ -28,8 +28,11 @@ namespace PhotoProject.Api.Controllers
         public async Task<IActionResult> UserLogin(UserLoginCommandRequest request)
         {
             UserLoginCommandResponse response = await _mediator.Send(request);
+
             return Ok(response);
         }
+
+        //todo add GoogleLogin
         
     }
 }

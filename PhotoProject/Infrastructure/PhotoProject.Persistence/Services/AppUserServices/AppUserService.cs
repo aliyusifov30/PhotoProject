@@ -1,8 +1,11 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Options;
 using PhotoProject.Application.Abstractions.Services.AppUserServices;
 using PhotoProject.Application.Abstractions.Services.TokenServices;
 using PhotoProject.Application.DTOs.AppUserDTOs.UserLoginDTOs;
 using PhotoProject.Application.DTOs.AppUserDTOs.UserRegisterDTOs;
+using PhotoProject.Application.DTOs.JwtDTOs;
 using PhotoProject.Application.DTOs.TokenDTOs;
 using PhotoProject.Domain.Entities.Identity;
 
@@ -14,11 +17,13 @@ namespace PhotoProject.Persistence.Services.AppUserServices
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly ITokenHandler _tokenHandler;
-        public AppUserService(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, ITokenHandler tokenHandler)
+        private readonly JwtDto _jwtDto;
+        public AppUserService(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, ITokenHandler tokenHandler, IOptions<JwtDto> jwtDto)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _tokenHandler = tokenHandler;
+            _jwtDto = jwtDto.Value;
         }
 
         public async Task<TokenDto> UserLoginAsync(UserLoginDto userLoginDto)
@@ -38,8 +43,11 @@ namespace PhotoProject.Persistence.Services.AppUserServices
             if (!result.Succeeded)
                 throw new Exception("UserName or Password is wrong");
 
-            var token = _tokenHandler.CreateAccessToken(user, 60);
-            //todo get this second from appsettings
+
+            var roleList = await _userManager.GetRolesAsync(user);
+
+            var token = _tokenHandler.CreateAccessToken(user, _jwtDto.TokenSecond , roleList);
+            //todo get this second from appsettings - i wrote this
 
             return await token;
         }

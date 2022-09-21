@@ -1,4 +1,4 @@
-﻿using Microsoft.Extensions.Options;
+﻿ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using PhotoProject.Application.Abstractions.Services.TokenServices;
 using PhotoProject.Application.DTOs.JwtDTOs;
@@ -18,16 +18,18 @@ namespace PhotoProject.Infrastructure.Services.TokenServices
             _jwtDto = jwtDto.Value;
         }
 
-        public async Task<TokenDto> CreateAccessToken(AppUser model , int second)
+        public async Task<TokenDto> CreateAccessToken(AppUser model , int second , IList<string> roles)
         {
 
             List<Claim> claims = new List<Claim>
             {
-                new Claim(ClaimTypes.NameIdentifier,model.UserName),
+                new Claim(ClaimTypes.NameIdentifier,model.Id),
                 new Claim(ClaimTypes.Email,model.Email),
-                new Claim(ClaimTypes.Name,model.FullName)
-                //todo you must add RoleClaims 
+                new Claim(ClaimTypes.Name,model.UserName)
+                //todo you must add RoleClaims - i wrote this
             };
+
+            claims.AddRange(roles.Select(x => new Claim(ClaimTypes.Role, x)));
 
             SymmetricSecurityKey securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtDto.SecurityKey));
             SigningCredentials signingCredentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);

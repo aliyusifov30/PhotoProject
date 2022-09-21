@@ -18,6 +18,8 @@ namespace PhotoProject.Application
             services.AddMediatR(typeof(ServiceRegistration));
 
             services.AddFluentValidation(x=>x.RegisterValidatorsFromAssemblyContaining<UserLoginValidator>());
+
+
         }
 
     }

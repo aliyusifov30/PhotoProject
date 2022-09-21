@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "eqocJDOUR4Q7Zly1ut3p5SpGSmsdCHAC19D4nUqXwcw=",
+  "Hash": "GCpydh6GzxnNZvtdr9TspYm7qqK8DKfBzkOkdCM9RHw=",
   "Source": "PhotoProject.Api",
   "BasePath": "_content/PhotoProject.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "PhotoProject.Api\\wwwroot",
+      "Source": "PhotoProject.Api",
+      "ContentRoot": "C:\\Users\\SWIFT\\Desktop\\FullStack\\PhotoProjectFull\\PhotoProject\\Presentation\\PhotoProject.Api\\wwwroot\\",
+      "BasePath": "_content/PhotoProject.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\SWIFT\\Desktop\\FullStack\\PhotoProjectFull\\PhotoProject\\Presentation\\PhotoProject.Api\\wwwroot\\uploads\\posts\\65650c42-bb5d-4e17-be9e-df5c8ace9160pawel-czerwinski-bX9B9c-YasY-unsplash.jpg",
+      "SourceId": "PhotoProject.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SWIFT\\Desktop\\FullStack\\PhotoProjectFull\\PhotoProject\\Presentation\\PhotoProject.Api\\wwwroot\\",
+      "BasePath": "_content/PhotoProject.Api",
+      "RelativePath": "uploads/posts/65650c42-bb5d-4e17-be9e-df5c8ace9160pawel-czerwinski-bX9B9c-YasY-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\posts\\65650c42-bb5d-4e17-be9e-df5c8ace9160pawel-czerwinski-bX9B9c-YasY-unsplash.jpg"
+    }
+  ]
 }

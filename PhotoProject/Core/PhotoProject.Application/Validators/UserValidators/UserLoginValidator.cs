@@ -23,6 +23,5 @@ namespace PhotoProject.Application.Validators.UserValidators
                 .MaximumLength(25)
                 .MinimumLength(5);
         }
-
     }
 }
